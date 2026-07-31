@@ -1,6 +1,7 @@
 import { ShoppingBag, X, Trash2, Minus, Plus } from "lucide-react";
 import { useCart } from "../context/CartContext";
 import { useNavigate } from "react-router-dom";
+// base url
 const IMAGE_BASE = "https://media-assets.swiggy.com/swiggy/image/upload/";
 
 const Cart = ({ isOpen, onClose }) => {
