@@ -139,7 +139,7 @@ const Cart = ({ isOpen, onClose }) => {
             {cart.length > 0 && (
               <button
                 onClick={clearCart}
-                className="mx-auto block pt-1 text-xs font-medium text-gray-400 transition hover:text-gray-600"
+                className="mx-auto block pt-1 text-xs font-medium text-gray-400 transition hover:text-gray-600 cursor-pointer"
               >
                 Clear cart
               </button>

@@ -279,7 +279,7 @@ export default function RestaurantDetails() {
             type="button"
             onClick={handleAddToCart}
             disabled={!isOpen}
-            className="flex shrink-0 items-center gap-2 rounded-full bg-pink-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-pink-700 active:scale-95 disabled:cursor-not-allowed disabled:bg-gray-300"
+            className="flex shrink-0 items-center gap-2 rounded-full bg-pink-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-pink-700 active:scale-95 disabled:cursor-not-allowed cursor-pointer disabled:bg-gray-300"
           >
             <ShoppingCart size={16} />
             {isOpen ? "Add to cart" : "Closed"}
