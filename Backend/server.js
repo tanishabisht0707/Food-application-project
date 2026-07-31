@@ -1,7 +1,9 @@
 import express from 'express';
 import axios from 'axios';
 import cors from 'cors';
-import "dotenv/config";  
+// env 
+import "dotenv/config";
+  
 const app = express();
 
 app.use(cors());
